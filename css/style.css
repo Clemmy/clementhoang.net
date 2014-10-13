@@ -5,6 +5,12 @@
 /*
 	Design based on Astral under CCA 3.0 license (html5up.net/license)
 */
+::selection {
+  background: #35A6CA; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #35A6CA; /* Gecko Browsers */
+}
 
 	body
 	{

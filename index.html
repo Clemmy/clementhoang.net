@@ -49,16 +49,19 @@
 							<article id="me" class="panel">
 								<header>
 									<h1>Clement Hoang</h1>
-									<p>
-										Software Developer
-									</p>
+									<p id="typer" data-typer-targets=".net developer, mobile developer, web developer, front-end designer, software developer, badminton fanatic, software engineering student">software developer</p>
 								</header>
 								<a href="#about" class="jumplink pic">
 									<span class="arrow icon fa-chevron-right"><span>See my work</span></span>
 									<img src="images/portrait.jpg" alt="" />
 								</a>
 							</article>
-
+							<script src="./js/jquery.typer.min.js"></script>
+							<script>
+								$(function () {
+									$('[data-typer-targets]').typer();
+								});
+							</script>
 						<!--About-->
 							<article id="about" class="panel">
 								<header>
@@ -144,11 +147,5 @@
 
 			<script src="./js/jquery.magnific-popup.min.js"></script>
 			<script src="./js/projects.js"></script>
-			<script src="./js/jquery.typer.min.js"></script>
-			<script>
-		    $(function () {
-		      $('[data-typer-targets]').typer();
-		    });
-  		</script>
 	</body>
 </html>

@@ -376,6 +376,11 @@
 		opacity: 0.85 !important;
 	}
 
+  .icon-file {
+    color: #66C240 !important;
+    opacity: 0.85 !important;
+  }
+
 	.icon {
 		position: relative;
 		text-decoration: none;

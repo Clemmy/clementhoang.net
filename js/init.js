@@ -220,7 +220,7 @@
 
 			}
 			else if (skel.isActive('mobile')) {
-				$panels.find('#selfie').attr("src","images/fail.jpg");
+				$panels.find('#selfie').attr("src","images/portrait-mobile.jpg");
 			}
 		});
 

@@ -141,8 +141,8 @@
 				#me .pic img
 				{
 					display: block;
-					width: 150px;
-					height: 150px;
+					width: 100px;
+					height: 100px;
 					margin: auto;
 					border-radius: 150px;
 					border: 1px solid #000;

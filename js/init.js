@@ -69,7 +69,6 @@
 			}
 
 			if (skel.isActive('desktop')) {
-
 				// Body.
 					$body._resize = function() {
 						var factor = ($window.width() * $window.height()) / (1440 * 900);
@@ -103,8 +102,7 @@
 						t._activate = function(instant) {
 
 							// Check lock state and determine whether we're already at the target.
-								if (isLocked
-								||	activePanelId == id)
+								if (isLocked ||	activePanelId == id)
 									return false;
 
 							// Lock.
@@ -115,7 +113,7 @@
 								$nav_links.filter('[href="#' + id + '"]').addClass('active');
 
 							// Change hash.
-							window.location.hash = '#' + id;
+								window.location.hash = '#' + id;
 
 							// Add bottom padding.
 								var x = parseInt($wrapper.css('padding-top')) +
@@ -221,7 +219,9 @@
 					$wrapper.fadeTo(400, 1.0);
 
 			}
-
+			else if (skel.isActive('mobile')) {
+				$panels.find('#selfie').attr("src","images/fail.jpg");
+			}
 		});
 
 })(jQuery);

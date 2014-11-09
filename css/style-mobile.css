@@ -141,7 +141,11 @@
 				#me .pic img
 				{
 					display: block;
-					width: 100%;
+					width: 150px;
+					height: 150px;
+					margin: auto;
+					border-radius: 150px;
+					border: 1px solid #000;
 				}
 
 				#me .pic .arrow

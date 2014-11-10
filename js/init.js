@@ -221,6 +221,14 @@
 			}
 			else if (skel.isActive('mobile')) {
 				$panels.find('#selfie').attr("src","images/portrait-mobile.jpg");
+				// $panels.find('#da-thumbs').children().each(function(data){
+					// console.log($(this).children().first().remove());
+					// $(this).remove('.ajax-popup-link');
+// 					$(this).children().first().click(function(e){
+//     e.preventDefault();
+// });
+					// console.log($(this).children().first());
+				// });
 			}
 		});
 

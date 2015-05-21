@@ -1,0 +1,15 @@
+{
+  "name": "clementhoang.net",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.2",
+    "gulp-uglify": "^1.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Clemmy/clementhoang.net.git"
+  },
+  "author": "Clement Hoang <clement.hoang24@gmail.com> (http://clementhoang.net)"
+}

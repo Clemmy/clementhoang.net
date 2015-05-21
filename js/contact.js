@@ -12,7 +12,12 @@ $('#contact-form').on('submit', function(event) {
         url: "//formspree.io/c8hoang@uwaterloo.ca",
         method: "POST",
         data: formData,
-        dataType: "json"
+        dataType: "json",
+        success: function (data) {
+            $('#send-success').html('Message was successfully sent!');
+        },
+        error: function (xhr, status) {
+            $('#send-success').html('There was an error. Please try again.');
+        }
     });
-
 });

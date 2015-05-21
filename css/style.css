@@ -226,6 +226,13 @@
 
 	/* Image */
 
+		.resized-image
+		{
+			display: block;
+			width: 271px;
+			height: 271px;
+		}
+
 		.image
 		{
 			display: inline-block;
